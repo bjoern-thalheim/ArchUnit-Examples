@@ -13,6 +13,7 @@ subprojects {
         implementation 'joda-time:joda-time:2.0'
         implementation 'org.springframework:spring-beans:5.2.2.RELEASE'
         implementation 'com.google.inject:guice:4.2.3'
+        compile group: 'org.springframework', name: 'spring-web', version: '5.2.9.RELEASE'
     }
 }
 
